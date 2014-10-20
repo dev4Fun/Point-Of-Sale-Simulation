@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/itemIcon"
+            android:layout_width="50dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_launcher">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/itemLabel"
+            android:text="Name"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/priceLabel"
+            android:gravity="center"
+            android:text="price"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="25sp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/quantityLabel"
+            android:gravity="center"
+            android:text="quantity"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textSize="25sp">
+        </TextView>
+
+        <ImageButton
+            android:id="@+id/removeBtn"
+            android:layout_gravity="end|center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:src="@drawable/ic_action_remove"
+            style="@style/button_style"
+            />
+
+    </TableRow>
+
+</LinearLayout>

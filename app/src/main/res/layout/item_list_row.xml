@@ -15,10 +15,12 @@
     <TextView
         android:id="@+id/itemLabel"
         android:text="Name"
+        android:typeface="serif"
         android:gravity="center"
+        android:layout_marginLeft="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
+        android:textSize="20sp"
         android:layout_alignParentTop="true"
         android:layout_toRightOf="@+id/itemIcon">
     </TextView>
@@ -29,8 +31,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
+        android:textStyle="italic"
         android:layout_toEndOf="@+id/itemIcon"
-        android:layout_marginLeft="9dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="3dp"
         android:layout_below="@+id/itemLabel"
         android:layout_toRightOf="@+id/itemIcon">
     </TextView>
