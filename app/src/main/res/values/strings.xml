@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">"Point of Sale Simulation "</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_name">"Point of Sale Simulation"</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_pay">PayActivity</string>
     <string name="set_discount">Set Discount</string>
-    <string name="acyivate_pay">Pay for items</string>
+    <string name="set_tax">Set Tax</string>
+    <string name="after_tax">After Tax</string>
+    <string name="tax">Tax</string>
+    <string name="total_label">Total</string>
+    <string name="activate_pay">Pay for Items</string>
+    <string name="item_list_str">Item List</string>
+    <string name="item_card_list_str">Items in Cart</string>
+    <string name="done_btn_text">Done</string>
+    <string name="percent_txt">%</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="go_back">Go Back</string>
+    <string name="title_activity_add_item_to__db_">AddItem_to_DB_Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_remove_item_from_db_">RemoveItemFromDB_Activity</string>
+    <string name="title_activity_show_transaction_history">ShowTransactionHistoryActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detailed_history">DetailedHistory</string>
 
 </resources>

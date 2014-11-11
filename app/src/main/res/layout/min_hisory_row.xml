@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="60dp">
+
+        <TextView
+            android:id="@+id/idLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="132"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2014/13/13 3:30"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:text="Total: $20"
+            android:textSize="20sp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See Details"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/details"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/blue_button" />
+    </TableRow>
+
+</LinearLayout>
